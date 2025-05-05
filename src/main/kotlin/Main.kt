@@ -1,5 +1,6 @@
 import collections.collectionsInit
 import coroutines.coroutinesInit
+import scopeFunctions.scopeFunctionsInit
 import sealedClass.sealedInit
 
 fun main() {
@@ -9,5 +10,6 @@ fun main() {
         1 -> sealedInit()
         2 -> collectionsInit()
         3 -> coroutinesInit()
+        4 -> scopeFunctionsInit()
     }
 }
